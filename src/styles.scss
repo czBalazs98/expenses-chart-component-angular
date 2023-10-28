@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@import 'colors.scss';
+
+@font-face {
+  font-family: DMSans;
+  src: url(./assets/fonts/DMSans-VariableFont_wght.ttf);
+}
+
+body {
+  height: 100vh;
+  margin: 0;
+  font-family: DMSans;
+  background-color: $very-pale-orange;
+}
