@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-@import 'colors.scss';
+@import "colors.scss";
 
 @font-face {
   font-family: DMSans;
@@ -13,5 +13,21 @@ body {
   height: 100vh;
   margin: 0;
   font-family: DMSans;
+  background-color: $cream;
+}
+
+.bg-soft-red {
+  background-color: $soft-red;
+}
+
+.bg-very-pale-orange {
   background-color: $very-pale-orange;
+}
+
+.text-very-pale-orange {
+  color: $very-pale-orange;
+}
+
+.text-dark-brown {
+  color: $dark-brown;
 }
