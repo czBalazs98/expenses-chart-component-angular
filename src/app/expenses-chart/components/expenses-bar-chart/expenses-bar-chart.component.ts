@@ -5,9 +5,7 @@ import {
   CategoryScale,
   Chart,
   LinearScale,
-  Tooltip,
-  TooltipItem,
-  TooltipModel,
+  Tooltip
 } from 'chart.js';
 import { Expense } from '../../model/expense';
 import { HttpClient } from '@angular/common/http';
